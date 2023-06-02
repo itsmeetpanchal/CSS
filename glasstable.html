@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <style>
+        body{
+            background-color: black;
+            height: auto;
+            width: auto;
+        }
+        .fball{
+                height: 130px;
+                width: 130px;
+                background: linear-gradient(blue,lightblue);
+                border-radius: 50%;
+                transform: translate(450px,100px);
+        }
+        .sball{
+                height: 130px;
+                width: 130px;
+                background: linear-gradient(red,orange);
+                border-radius: 50%;
+                transform: translate(750px,400px);
+        }
+        .box{
+            height: 400px;
+            width: 300px;
+            background-color: rgba(500,455,455,.1);
+            transform: translate(520px,-80px);
+            backdrop-filter: blur(10px);
+
+        }
+        .login{
+            color:  aliceblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:25px;
+            transform: translate(90px,30px);
+            margin: auto;   
+        }
+        label{
+            color: aliceblue;
+        }
+        .name{
+            /* transform: translate(0px,20px); */
+            /* margin-left: 20px; */
+            margin: 50px 0px 50px 20px;
+        }
+        input{
+            margin-left: 20px;
+            background:  rgba(500,455,455,0.1);
+            border: 1px solid rgba(128, 128, 128, 0.116);
+            width: 250px;
+            height: 35px;
+        }
+        .password{
+            margin: 50px 0px 50px 20px;
+            color: aliceblue;
+        }
+        .button{
+            background-color: rgba(66, 69, 71, 0.356);
+            height: 40px;
+            width: 254px;
+            transform: translate(22px,0px);
+            text-align: center;
+            border-radius: 5px;
+        }
+        .btnlog{
+            background-color: aliceblue;
+            font-size: 30px;
+            width:254px;
+            border-radius: 5px;
+        }
+        .google{
+            background-color: rgba(500,455,455,0.5);
+            height: 30px;
+            width: 125px;
+            text-align: center;
+            padding: 2px;
+            box-sizing: border-box;
+            transform: translate(10px,0px);
+            border-radius: 5px;
+        
+        }
+        .gle{
+            font-size:21px;
+            background: transparent;
+            border: transparent;
+            text-align: center;
+        }
+        .fa{
+            /* line-height: 10px; */
+            transform: translate(0,-1px);
+        }
+        .facebook{
+            background-color:  rgba(500,455,455,0.5);
+            height: 30px;
+            width: 125px;
+            text-align: center;
+            padding: 2px;
+            box-sizing: border-box;
+            transform: translate(165px,-30px);
+            border-radius: 5px;
+        }
+        .face{
+            font-size:19px;
+            background: transparent;
+            border: transparent;
+            text-align: center;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="fball"></div>
+    <div class="sball"></div>
+    <div class="box">
+        <form>
+        <h1 class="login" >Login Here</h1><br><br><br><br>
+        <label class="name">Username</label>
+        <input type="text" placeholder="Email of phone"><br><br>
+        <lable class="password">Password</lable>
+        <input type="text" placeholder="Password"><br><br><br>
+        <div class="button">
+            <button class="btnlog">Login</button>
+        </div><br><br>
+        <div class="google">
+            <i class="fa fa-google" aria-hidden="true"></i>
+            <button class="gle">Google</button>
+        </div>
+        <div class="facebook">
+            
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <button class="face">Facebook</button>
+        </div>
+       
+        
+        </form>
+    </div>
+</body>
+</html>
