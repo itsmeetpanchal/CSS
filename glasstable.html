@@ -77,6 +77,12 @@
             width:254px;
             border-radius: 5px;
         }
+        .btnlog2:hover {
+            background-color: rgb(54, 45, 45);
+            color: aliceblue;
+            transition: 0.5s;
+           
+        }
         .google{
             background-color: rgba(500,455,455,0.5);
             height: 30px;
@@ -124,11 +130,11 @@
         <form>
         <h1 class="login" >Login Here</h1><br><br><br><br>
         <label class="name">Username</label>
-        <input type="text" placeholder="Email of phone"><br><br>
+        <input type="text" required  title="please enter name or phone" placeholder="Email of phone"><br><br>
         <lable class="password">Password</lable>
-        <input type="text" placeholder="Password"><br><br><br>
+        <input type="text" placeholder="Password" maxlength="8" minlength="4"><br><br><br>
         <div class="button">
-            <button class="btnlog">Login</button>
+            <button class="btnlog btnlog2">Login</button>
         </div><br><br>
         <div class="google">
             <i class="fa fa-google" aria-hidden="true"></i>
