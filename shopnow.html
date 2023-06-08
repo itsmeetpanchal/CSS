@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .outline{
+            background-color: aqua;
+            height: 50px;
+            width: 200px;
+            margin: 100px auto;
+            text-align: center;
+            line-height: 50px;
+            font-size: 30px;
+            outline: 4px solid aqua;
+            transition: .20s;
+    }
+    .outline:hover{
+        outline: 4px solid aqua;
+        outline-offset: 4px;
+        
+    }
+    .blackbox{
+        height: 100px;
+        width: 100px;
+        background-color: black;
+    }
+    .inbox{
+        height: 100px;
+        width: 100px;
+        transform: scale(0);
+        transition: .20s;
+        
+    }
+    .blackbox:hover .inbox
+    {
+       
+        background-color: aqua;
+        transform: scale(1);
+        
+    }
+</style>
+<body>
+    <div class="outline">shop now</div>
+    <div class="blackbox">
+        <div class="inbox"></div>
+    </div>
+</body>
+</html>

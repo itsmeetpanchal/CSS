@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            height: 50px;
+            width: 500px;
+            position: relative;
+        }
+
+        .div1::after {
+            content: "";
+            height: 100px;
+            width: 100px;
+            background: lightcoral;
+            border-radius: 50%;
+            margin: 100px auto;
+            position: absolute;
+            left: 250px;
+        }
+
+        .div1::before {
+            content: "";
+            height: 100px;
+            width: 100px;
+            background: red;
+            border-radius: 50%;
+            margin: 100px auto;
+            position: absolute;
+            left: 250px;
+            transform: scale(1);
+            opacity: 0.5;
+            transition: 1s;
+
+        }
+
+        .div1:hover::before {
+            transform: scale(1.5);
+            opacity: 0;
+        }
+
+        */
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+
+    </div>
+</body>
+
+</html>
