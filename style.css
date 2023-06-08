@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{ 
+    padding: 25px 25px;
+    background: #000; 
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+.m{
+    color: aqua;
+    margin-right: 10px;
+}
+.nav1{
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        height: 30px;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+}
+.an1{
+    display: block;
+    text-align: center;
+    width: 250px;
+    font-size: 14px;
+    border-right: 1px solid lightblue;
+}
+.inputdiv{
+    height: 90px ;
+    border: 2px solid red;
+    width: 500px;
+    padding-right: 10px;
+    
+}
+.ediv{
+    height: 90px;
+    /* width: 546px; */
+    border: 2px solid red;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+}
+.search-input1{
+    padding: 15px;
+    width: 250px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.searchbtn2{
+    background: aqua;
+    height: 5px;
+    width: 10px;
+    display: block;
+    margin:20px 0 0 310px;
+    transform: translate(-100px 0px);
+    font-size: 20px;
+   
+}
+.serch{
+    
+    transform: translate(-10px,-10px);
+}
+.elitediv{
+    height:90px ;
+    border: 2px solid red;
+    font-size: 40px;
+    text-align: center;
+    line-height: 90px;
+    width: 400px;
+    transform: translate(40px ,0);
+}
+.second-div-nav{
+    /* transform: translate(0,100px); */
+    height: 70px;
+    background: #000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.an2::after{
+    background: aquamarine;
+    content: "";
+    opacity: 0;
+    height: 4px;
+    position: absolute;
+    width: 0px;
+    left: 0px;
+    bottom: 0px;
+    transition: .60s;
+}
+.an2:hover::after{
+    opacity: 1;
+    width: 100%;
+}
+.an2{
+    position: relative;
+}
+.btncart{
+    background-color: aquamarine;
+    width: 180px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    /* transform: translate(900px,-70px); */
+    transform: translate(20px, 0);
+    align-items: center;
+}
+.addcart{
+    background-color: transparent;
+    background: rgba(0, 0, 0, .2);
+    font-size: 25px;
+    height: 50px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+.cart{
+    width: 50px;
+    height: 40px;
+    transform: translate(0px,-10px);
+}
