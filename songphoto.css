@@ -1,0 +1,226 @@
+*{box-sizing: border-box;}
+.background{
+    height: 600px;
+    width: 150vh;
+    background: lightblue;
+    position: relative;
+  
+}
+.main{
+    height: 530px;
+    width: 330px;
+    background: rgba(134, 195, 246, 0.894);
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    box-shadow: 5px 5px 12px black;
+}
+.nav{
+    height: 70px;
+    width: 300px;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 15px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px ;
+    
+
+
+}
+.backbtn,.menubtn{
+    height: 45px;
+    width: 45px;
+    background: aliceblue;
+    border: 3px solid gray;
+    border-radius: 50%;
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white ;
+    position: absolute;
+    left: 7px;
+    top: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.menubtn{
+    position: absolute;
+    left: 243px ;
+}
+.photowithsongname{
+    height: 340px;
+    width: 330px;
+    /* border: 2px solid red; */
+    /* position: relative; */
+    position: absolute;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.photodiv{
+    height: 170px;
+    width: 170px;
+    background: url(song.jpg);
+    border: 4px solid aliceblue;
+    box-shadow: 0px 0px 12px black ;
+    border-radius: 50%;
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate{
+    to{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(360deg);
+    }
+}
+.songname{
+    height: 50px;
+    width: 170px;
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 90px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.span1{
+    font-size: 15px;
+    color: gray;
+}
+.songtime{
+    position: absolute;
+    bottom: 60px;
+   word-spacing: 240px;
+   font-size: 15px;
+}
+.songlinedark{
+    height: 15px;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 40px;
+    border: 3px solid rgb(191, 228, 240);
+    overflow: hidden;
+}
+.songline{
+    height: 10px;
+    width: 115px;
+    background: blue;
+}
+.songlineround{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 6px solid rgb(218, 244, 246);
+    background: lightblue;
+    box-shadow: 0 0 10px blue inset;
+    position: absolute;
+    bottom: 34px;
+    left: 110px;
+}
+
+.songicon{
+    height: 110px;
+    width: 330px;
+    /* border: 2px solid black; */
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.playbtn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 20px;
+    border: none;
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white ;
+}
+.pause{
+    background: blue;
+}
+
+
+
+
+.main2{
+    left: 600px;
+    text-align: center;
+
+}
+.nav2{
+    top: 85px;
+}
+.photowithsongname2{
+     top: 50px;
+}
+.photodiv2{
+    height: 140px;
+    width: 140px;
+}
+.nav2-skin{
+    display: block;
+   padding-top: 15px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.songlist{
+    height: 330px;
+    width: 330px;
+    /* border: 2px solid; */
+    position: absolute;
+    bottom: 0px;
+}
+.songlistname{
+    height: 47px;
+    width: 330px;
+    /* border: 2px solid red; */
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 20px;
+    /* transform: translate(0px,10px); */
+}
+.playingnow{
+    background: rgba(149, 149, 237, 0.539);
+    /* border: 2px solid yellow; */
+    border-radius: 10px;
+}
+.playbtn2{ 
+    height:35px;
+    width: 35px;
+    border: 2px solid green;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white ;
+
+}
+.listbtn2{
+    top: 52px ;
+}
+.listbtn3{
+    top: 99px ;
+}
+.listbtn4{
+    top: 149px ;
+}
+.listbtn5{
+    top: 195px ;
+}
+.listbtn6{
+    top: 242px ;
+}
+.listbtn7{
+    top: 289px ;
+}
+
+
