@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            background: black;
+        }
+        .a{
+            height: 130px;
+            width: 300px;
+            /* background: black; */
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 42px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 0;
+            overflow: hidden;
+        }
+        .a h3{
+            z-index: 2;
+            color: paleturquoise;
+        }
+        .a::before{
+            content: "";
+            position: absolute;
+            height: 330px;
+            /* width:50px; */
+            width: 70px;
+            background: linear-gradient(rgb(39, 3, 245),rgb(253, 2, 174));
+            /* animation: rotate 2s linear infinite; */
+            transform: rotate(70deg);
+        }
+        .a::after{
+            content: "";
+            position: absolute;
+            z-index: 1;
+            height: 120px;
+            width: 290px;
+            background: black;
+        }
+
+        @keyframes rotate
+        {
+            to{
+                transform: rotate(0deg);
+            }
+            from{
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="a"><h3>M E E T</h3></div>
+</body>
+</html>
