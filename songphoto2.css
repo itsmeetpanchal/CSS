@@ -1,0 +1,487 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    height: 600px;
+    width: 140vh;
+    background: lightblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.main {
+    height: 530px;
+    width: 290px;
+    background: rgba(210, 231, 246, 0.907);
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    box-shadow: 5px 5px 30px gray;
+    overflow: hidden;
+}
+
+.nav {
+    height: 60px;
+    width: 290px;
+    /* border: 2px solid red; */
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 6px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.fitness {
+    position: absolute;
+    top: 18px;
+
+}
+
+.btn {
+    font-size: 20px;
+    /* box-shadow: 5px 5px 12px black, -5px -5px 30px white ; */
+    border: none;
+    background: none;
+}
+
+.backbtn {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    border-radius: 50%;
+}
+
+.backbtn2 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    border-radius: 50%;
+}
+
+.daywiseinfo {
+    height: 75px;
+    width: 290px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 60px;
+    word-spacing: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dayinfo {
+    height: 75px;
+    width: 130px;
+    /* border: 2px solid red; */
+    left: 15px;
+    position: absolute;
+    font-size: 40px;
+    font-family: monospace;
+
+}
+
+.str {
+    font-size: 20px;
+    color: gray;
+
+}
+
+.next {
+    height: 75px;
+    width: 130px;
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nextbtn {
+    height: 45px;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+    background: none;
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white;
+}
+
+.info {
+    height: 110px;
+    width: 290px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.insideinfo {
+    height: 75px;
+    width: 200px;
+    /* border: 2px solid red; */
+    position: absolute;
+    display: flex;
+    /* word-spacing: 10px; */
+    font-size: 15px;
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white;
+    border-radius: 10px;
+
+
+    /* top: 135px; */
+}
+
+.workoutinfo {
+    height: 95px;
+    width: 100px;
+    /* border: 2px solid red; */
+    top: 10px;
+    left: 5px;
+    position: absolute;
+
+}
+
+.workoutinfo2 {
+    height: 95px;
+    width: 100px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.intensity {
+    height: 15px;
+    width: 90px;
+    border: 3px solid;
+    margin-top: 6px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.insideintensity {
+    height: 10px;
+    width: 50px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, blue, lightcoral);
+    box-shadow: 0 0 12px purple;
+    margin-top: -1px;
+}
+
+.workoutlist {
+    height: 300px;
+    width: 270px;
+    background: rgba(113, 113, 240, 0.508);
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 10px;
+    /* bottom: -100px; */
+    border-radius: 20px;
+    bottom: -20px;
+}
+
+.workoutinfolist {
+    height: 90px;
+    width: 290px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 10px;
+}
+
+.workoutinfolist2 {
+    top: 100px;
+}
+
+.workoutinfolist3 {
+    top: 190px;
+}
+
+.img {
+    height: 50px;
+    width: 80px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white;
+
+}
+.workoutinfolistinfo{
+    height: 70px;
+    width: 80px;
+    /* border: 2px solid gold; */
+    position: absolute;
+    left: 115px;
+    top: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.workbtn{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 35px;
+    top: 25px;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white;
+}
+
+
+
+
+
+
+
+
+
+.main2 {
+    top: 50px;
+    left: 430px;
+   
+   
+}
+.dayinfo2{
+    font-size: 25px ;
+}
+.onoffmain{
+    top: -10px;
+    height: 50px;
+    width: 110px;
+    
+}
+.onoffbtn{
+    border-radius: 13px;
+    background: rgba(43, 44, 45, 0.552);
+    box-shadow: 0 0 12px black inset;
+}
+.offbtn{
+    height: 32px;
+    width: 32px;
+    border: gray;
+    position: absolute;
+    border: 1px solid gray inset;
+    right: 20px;
+    background: white;
+    border-radius: 8px;
+    /* animation: onoff 2s linear infinite; */
+}
+@keyframes onoff{
+    to{
+        right: 20px;
+        /* background: none; */
+    }
+    from{
+        left: 20px ;
+        background: linear-gradient(50deg,lightblue,lightcoral);
+    }
+}
+
+.onoffname{
+    position: absolute;
+    right: 16px;
+    top: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.info2{
+    height: 150px;
+    width: 290px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 120px;
+}
+.cir1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: lightblue;
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white;
+    /* border: 2px solid black; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cir2{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: rgba(2, 40, 64, 0.322);
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white;
+    position: absolute;
+    overflow: hidden;
+}
+.cir3{
+    height: 140px;
+    width: 130px;
+    background: blueviolet;
+    /* border-radius: 50%; */
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 50px;
+    transform: rotate(-80deg);
+}
+.cir3in{
+    height: 40px;
+    width: 40px;
+    background: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    /* left: -10px; */
+    top: -20px;
+    text-align: center;
+    transform: rotate(90deg);
+   
+}
+.graphnum{
+    position: absolute;
+ top: 10px;
+ left: 10px;
+ font-weight: bold;
+ /* transform: rotate(90deg); */
+}
+.cir3in1{
+    height: 40px;
+    width: 40px;
+    background: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    left: 93px;
+    top: -10px;
+}
+.cir4{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: lightblue;
+    border: 2px solid black;
+    position: absolute;
+    top: -23px;
+    left: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white;
+}
+.cir5{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid red;
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white;
+    position: absolute;
+}
+.chartinfo{
+    height: 170px;
+    width: 290px;
+    /* border: 2px solid gold; */
+    position: absolute;
+    bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.levels{
+    height: 120px;
+    width: 40px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    transform: translate(0px, -15px);
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.418) inset, -5px -5px 30px white inset;
+}
+.levelsinfo{
+    height: 90px;
+    width: 30px;
+    background: linear-gradient(blue,rgb(58, 250, 234));
+    border-radius: 25px;
+    border: 3px solid lightskyblue;
+    box-shadow: 0 0 12px blue;
+    transform: translate(3px,22px);
+}
+.l2{
+    border: none;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.418) , -5px -5px 30px white;
+}
+.li2{
+    height: 0px;
+    border: none;
+
+}
+.li3{
+    height: 64px ;
+    border: 2.5px solid lightyellow;
+    transform: translate(3px,48px);
+    box-shadow: 0 0 12px yellow;
+    background: linear-gradient(orange 40%,red);
+}
+.li4{
+    height: 95px;
+    border: 2.5px solid palevioletred;
+    transform: translate(3px,17px);
+    box-shadow: 0 0 12px palevioletred;
+    background: linear-gradient(rgb(252, 2, 44),rgb(246, 4, 222));
+}
+.levelsnum{
+    position: absolute;
+    /* left: 1px; */
+    bottom: -40px;
+    
+}
+
+.fitnessicon{
+    height: 80px;
+    width: 290px;
+    /* border: 2px solid green; */
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+      
+}
+.fitbtn{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border: none;
+    background: none;
+    box-shadow: 5px 5px 12px black, -5px -5px 30px white;
+    
+    border-radius: 10px;
+}
+.fitbtninset{
+    box-shadow: -5px -5px 15px black inset, 5px 5px 30px lightblue inset;
+}
